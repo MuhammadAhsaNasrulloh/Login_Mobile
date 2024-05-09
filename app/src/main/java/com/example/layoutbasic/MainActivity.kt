@@ -134,7 +134,7 @@ fun MyApp() {
                     .padding(bottom = 10.dp))
             TextField(value = username, onValueChange = {
                 username = it
-            }, placeholder = { Text(text = "username") },
+            }, placeholder = { Text(text = "Username") },
                 modifier = Modifier
                     .fillMaxWidth(0.8f)
                     .padding(top = 50.dp, bottom = 10.dp)
@@ -176,7 +176,7 @@ fun MyApp() {
                     navController.popBackStack("login", inclusive = false)
                 }, modifier = Modifier
                     .fillMaxWidth(0.5f)
-                    .padding(top = 10.dp)
+                    .padding(top = 15.dp)
                 ) {
                     Text(text = "Log Out")
                 }
